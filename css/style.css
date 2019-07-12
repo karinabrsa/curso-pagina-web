@@ -1,0 +1,74 @@
+*{
+    /* elimina los espacios en blanco a los lados */
+    margin: 0;
+    /* el contenido tendra espacio, no tocara los bordes de su contenedor */
+    padding: 0;
+    /* para que los elementos se contengan en sus contenedores */
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Bad Script', cursive;
+}
+.ewk_navbar{
+    /* !important hace que le de mayor prioridad a esta clase */
+    background-color: rgba(0, 0, 0, 0.6) !important;
+}
+.ewk_navbar div, .ewk_navbar ul{
+    background-color: transparent !important;
+}
+.ewk_navbar a{
+    color: #fff !important;
+}
+
+.ewk_cont_sec_1{
+    padding: 10%;
+}
+.ewk_cont_sec_1_link{
+    padding: 5%;
+}
+.ewk_cont_sec_1_link a{
+    width: 200px;
+}
+.ewk_cont_sec_1 hr{
+    border-top: 1px solid rgba(1, 1, 1, 0.3);
+}
+.ewk_cont_banner_sec3{
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/sea.jpg");
+    position: relative;
+    padding: 10%;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+.ewk_cont_banner_sec3 .row{
+    background-color: rgba(1, 1, 1, 0.7);
+    color: #fff;
+    padding: 2%;
+}
+.ewk_cont_img{
+    padding: 5%;
+}
+.ewk_cont_banner_sec4 h3{
+    margin-top: 5px;
+}
+.form_footer{
+    background-color: rgba(1, 1, 1, 0.7);
+    padding: 10%;
+    color: #fff;
+    margin-top: 100px;
+}
+.form_footer a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+.ewk_cont_img_footer{
+    padding: 5%; 
+}
+.ewk_cont_img_footer h3{
+    margin-top: 5px; 
+}
